@@ -1,0 +1,16 @@
+
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="header-left">
+          <a href="index.html"><img class="header-img"src="./img/pokedex.jpg" alt="bild"></a>
+          <h1>Pokedex</h1>
+        </div>
+        <div class="header-right">
+          <form class="d-flex" role="search"onsubmit="filterPokedex(); return false;" >
+            <input id="search"class="form-control me-2" type="text" required pattern="[A-Za-z0-9]+" minlength="1" placeholder="name of pokedex..." aria-label="Search">
+            <button onclick="filterPokedex()"class="btn btn-outline-primary" type="submit">Search</button>
+          </form>
+        </div>
+        </div>
+      </nav>
+    

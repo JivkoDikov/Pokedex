@@ -1,0 +1,264 @@
+body{
+    margin: 0;
+    font-family: 'Open sans'!important;
+}
+
+.header-img{
+    width: 40px;
+}
+
+.header-img:hover{
+    transform: scale(0.9);
+}
+
+.header-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-right{
+    margin-top: 0.5rem;
+}
+
+p{
+    font-size: 20px ;
+}
+
+h1{
+    margin-block-end: 0px !important;
+    margin-left: 0.5rem !important;
+}
+
+.btn{
+    
+    border-color: black !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.btn:hover{
+    background-color:#BDD7FA !important; 
+    border-color: #BDD7FA !important;
+    
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    
+}
+
+
+#content-pokedex-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pokedex-container{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    cursor: pointer;
+    
+}
+
+.pokedex-container:hover{
+    transform: scale(0.9);
+}
+
+#pokedex-img{
+    height: 100px;
+    width: auto;
+}
+
+.btns-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+}
+
+.types-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-types{
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    
+}
+
+
+.pokedex-popUp-container{
+    height: 650px;
+    width: 320px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+.pokedex-name{
+    height: 300px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    border-radius: 20px;
+    background-color:#F8F9FA;
+    font-size: 20px;
+}
+
+.pokedex-img-popUp{
+    width: 150px;
+    height: 150px;
+    margin-top: -140px;
+}
+
+.pokedex-info-container{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-top: -40px;
+    background-color: white;
+}
+
+.nav-underline {
+    --bs-nav-underline-gap: 3rem !important;
+}
+
+.nav{
+    --bs-nav-link-color: black !important;
+    --bs-nav-link-hover-color: black !important;
+    border-bottom: 1px solid rgba(0,0,0, 0.1);
+    margin-left: 24px;
+    margin-right: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-btn{
+    border-radius: 20px;
+    background-color: white; 
+}
+
+.close-btn:hover{
+    transform:scale(1.1);
+}
+
+.title-closebtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    text-transform: capitalize;
+}
+
+.title{
+    text-transform: capitalize;
+}
+
+.change-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.list-group{
+    --bs-list-group-border-color: none !important;
+}
+
+.value{
+    margin-left: 50px;
+}
+
+.pokedex-info{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px;
+}
+
+.pokedexImg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokedex-basestats{
+    display: flex;
+    padding: 8px;
+}
+
+.progress-basestats{
+    width: 250px;
+    margin-bottom: 5px;   
+}
+
+.canvas{
+    height: 100%;
+    width: 300px;
+    object-fit: contain;
+}
+
+#moves-container{
+    width: 100%;
+    max-height: 300px; 
+    overflow-y: auto; 
+}
+
+.move{
+  padding: 5px;
+  border-bottom: 1px solid #ccc; 
+  text-align: center;
+}
+
+.loadPokedex-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-none{
+    display: none;
+}
+
+@media (max-width:520px){
+
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+
+}
+
+
+
+
